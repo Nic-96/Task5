@@ -1,0 +1,59 @@
+.about-us__block {
+    display: flex;
+}
+
+.about-us__block:before {
+    content: "";
+    display: block;
+    height: 505px;
+    width: 489px;
+    background: url(../../img/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png) center center / cover no-repeat;
+}
+
+.about-us__desc {
+    background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+    border-radius: 5px;
+    padding: 74px 81px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 785px;
+    flex: 1;
+    height: 455px;
+    margin-left: -136px;
+    margin-top: 97px;
+}
+
+.about-us__header {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: bold;
+    margin-bottom: 41px;
+}
+
+.about-us__desc-text {
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 42px;
+    max-width: 501px;
+}
+
+.about-us__text {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.about-us__button {
+    width: 27%;
+    display: inline-block;
+    padding: 18px 40px;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+

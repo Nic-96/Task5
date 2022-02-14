@@ -1,0 +1,125 @@
+.games {
+    margin-bottom: 125px;
+}
+
+.games__title-box {
+    margin-bottom: 51px;
+}
+
+.games__title {
+    font-size: 36px;
+    font-weight: bold;
+    position: relative;
+}
+
+.games__title:after {
+    content: "";
+    background: url(../../img/new.png) no-repeat;
+    margin-left: 65px;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.games__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.games__item {
+    min-height: 449px;
+    width: calc(100% / 3 - 18px);
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.games__header {
+    height: 144px;
+}
+
+.games__item:last-child {
+    margin-right: 0px;
+}
+
+
+.games__item:nth-child(2) .games__header {
+    background: #010101;
+    padding: 10px 26px 2px;
+}
+
+.games__item:last-child .games__header {
+    background: #150A18;
+    padding: 1px 20px 0px 21px;
+}
+
+.games__content {
+    padding-left: 22px;
+    padding-right: 43px;
+    padding-top: 35px;
+    padding-bottom: 26px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.games__card-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    color: #000000;
+}
+
+
+.games__features {
+    margin-bottom: 24px;
+    color: #666666;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.games__feature {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.games__feature:last-child {
+    margin-right: 0;
+}
+
+.games__pic-feature {
+    margin-right: 10px;
+}
+
+
+.games__text {
+    color: #303030;
+    font-size: 14px;
+    margin-bottom: 24px;
+    line-height: 21px;
+}
+
+.games__button {
+    padding: 19px 30px;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    width: 46%;
+    margin-top: auto;
+}
+
+
+
+

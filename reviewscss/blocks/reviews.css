@@ -1,0 +1,148 @@
+.page-content {
+    background: #FFFFFF;
+    color: #303030;
+    padding: 96px 0;
+    padding-bottom: 86px;
+}
+
+.reviews {
+    column-count: 2;
+    column-gap: 30px;
+    margin-bottom: 45px;
+}
+
+.reviews__item {
+    margin-bottom: 20px;
+}
+
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 29px 33px;
+    background: #F4F5F5;
+}
+
+
+.review__userdata {
+    padding-top: 10px;
+    padding-left: 18px;
+}
+
+.avatar {
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.review__user--color--blueunder {
+    color: #2E77A4;
+    text-decoration: underline;
+}
+
+.review__user--color--black {
+    color: #1A1B1E;
+}
+
+.review__user:after {
+    content: url(../../reviewsimg/vk-blue\ 1.png);
+    height: 30px;
+    width: 30px;
+    margin-left: 8px;
+}
+
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag {
+    font-size: 13px;
+    color: #303030;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #E7E7E7;
+}
+
+.tag--bg--green {
+    background: #B9EAE4;
+}
+
+.review__title {
+    font-size: 30px;
+    line-height: 42px;
+    color: #1A1B1E;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.review__content-text {
+    color: #818181;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 44px;
+}
+
+.review__date {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    color: #1A1B1E;
+}
+
+.paginator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.paginator__display {
+    margin-right: 24px;
+    line-height: 20px;
+    margin-left: 13px;
+}
+
+.paginator__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paginator__item {
+    line-height: 21px;
+    text-align: center;
+    margin-right: 2px;
+}
+
+.paginator__ref {
+    display: block;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.paginator__ref:hover {
+    background: #8F00FF;
+    color: #FFFFFF;
+}
+
+
+
+
+

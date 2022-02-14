@@ -1,0 +1,100 @@
+.previous-games {
+    margin-bottom: 146px;
+}
+
+.previous-games__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.previous-games__list {
+    margin-bottom: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.previous-games__item {
+    width: 559px;
+    margin-right: 17px;
+}
+
+.previous-games__item:last-child {
+    margin-right: 0;
+}
+
+.previous-games__content {
+    position: relative;
+}
+
+.previous-games__item-pict {
+    object-fit: cover;
+}
+
+.previous-games__item-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 19px 69px 27px 30px;
+}
+
+.previous-games__item-date {
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.previous-games__item-header{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.previous-games__item-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+}
+
+.paginator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginator__display {
+    margin-right: 24px;
+    line-height: 20px;
+    margin-left: 8px;
+}
+
+.paginator__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paginator__item {
+    line-height: 21px;
+    text-align: center;
+    margin-right: 2px;
+}
+
+.paginator__ref {
+    display: block;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.paginator--item--active .paginator__ref {
+    background: #8F00FF;
+}
+

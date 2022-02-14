@@ -1,0 +1,173 @@
+.top-line{
+    position: relative;
+    min-height: 415px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 22px;
+    background: #17191C;
+    color: #FFFFFF;
+}
+
+.top-line:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../gamesimg/headerimg.png) center top no-repeat;
+    filter: grayscale(1);
+}
+
+.top-line__container {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__container {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
+}
+
+.logo {
+    display: block;
+    margin-right: 264px;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.menu__item {
+    margin-right: 66px;
+}
+
+.menu__item:last-child {
+    margin-right: 0
+}
+
+.menu__ref {
+    font-size: 16px;
+}
+
+.contacts {
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.contacts__workhours {
+    font-size: 13px;
+    text-decoration: underline;
+    line-height: 10px;
+}
+
+.page-title {
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: bold;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+    font-weight: bold;
+}
+
+.breadcrumbs__item::after {
+    content: "/";
+    margin: 0 3px;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item:last-child:after{
+    display: none;
+}
+
+.breadcrumbs__link {
+    color: #9A9A9A;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line:underline;
+}
+
+.contacts__workhours {
+    position: relative;
+}
+
+.dropdown__menu::before {
+    position: absolute;
+    content: "";
+    border: 12px solid;
+    width: 0;
+    height: 0;
+    border-bottom-color: 
+    #EDEDED;
+    top: -8px;
+    left: 86px;
+    border-top-width: 0;
+}
+
+.contacts__workhours:hover .dropdown__menu {
+    display: block;
+}
+
+.dropdown__menu {
+    position: absolute;
+    background: #EDEDED;
+    border: 1px solid black;
+    padding: 15px 15px;
+    width: 160px;
+    top: 100%;
+    right: 0;
+    display: none;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+
+.dropdown__item {
+    color: #1E1F20;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.dropdown__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
