@@ -96,6 +96,7 @@ img {
 .button--colour--violet {
     background: #8F00FF;
     color: #FFFFFF;
+    transition: color .3s, background .3s;
 }
 
 .button--colour--violet:hover {
@@ -105,13 +106,19 @@ img {
 .button--colour--white {
     color: #8F00FF;
     border: 1px solid #8F00FF;
+    transition: color .3s;
 }
 
 .menu__ref {
     color: #FFFFFF;
+    transition: color .3s;
 }
 
 .menu__ref:hover {
+    color: #8F00FF;
+}
+
+.menu__item--active .menu__ref {
     color: #8F00FF;
 }
 

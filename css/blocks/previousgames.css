@@ -92,6 +92,11 @@
     border-radius: 50%;
     font-weight: bold;
     line-height: 32px;
+    transition: background .3s;
+}
+
+.paginator__ref:hover {
+    background: #8F00FF;
 }
 
 .paginator--item--active .paginator__ref {

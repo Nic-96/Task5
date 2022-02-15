@@ -67,6 +67,8 @@
 .review__tags {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 7px;
 }
 
 .tag {
@@ -135,6 +137,7 @@
     border-radius: 50%;
     font-weight: bold;
     line-height: 32px;
+    transition: color .3s, background .3s;
 }
 
 .paginator__ref:hover {

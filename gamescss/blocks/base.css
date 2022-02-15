@@ -82,6 +82,7 @@ img {
 .button--colour--violet {
     background: #8F00FF;
     color: #FFFFFF;
+    transition:  background .3s, color .3s;
 }
 
 .button--colour--violet:hover {
@@ -98,3 +99,6 @@ img {
     color: #8F00FF;
 }
 
+.menu__item--active .menu__ref {
+    color: #8F00FF;
+}
